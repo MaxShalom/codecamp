@@ -1,3 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
 body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2, h3, h4 {
+    font-size: 2rem;
+}
+
+.page-body {
+    padding: 4%;
+}
+
+.header {
    background:linear-gradient(120deg, #c24f4f, #ffffff);
+   color: white;
+   padding: 5%;
+   margin: 0%;
+}
+
+li {
+  font-size: 20px;
+}
+
+.left {
+    float:right;
+    width:50%;
+    padding-bottom: 25px;
 }
